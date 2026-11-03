@@ -49,6 +49,6 @@ python src/main.py
 
 Trabalho de Conclusão de Curso — Engenharia de Produção — Centro Universitário IBMR (Rio de Janeiro).
 
-**Autores:** Breno William Andrade Coutinho, José Antônio Tomaz Brito, Thais de Jesus da Silva, Maike Vinicius de Siqueira Ribeiro, Ernan Vieira de Abreu.
+**Autores:** Breno, José, Thais, Maike, Ernan.
 
 **Orientador:** Prof. Francisco José.
