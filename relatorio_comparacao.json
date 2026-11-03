@@ -1,0 +1,770 @@
+[
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "02.528.193/0001-83",
+    "obtido": "02.528.193/0001-83",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "08.282.957/0001-80",
+    "obtido": "08.282.957/0001-80",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 12,
+    "obtido": 12,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Vigilância patrimonial armada (pregão eletrônico + ata de registro de preços)",
+    "obtido": "Contratação de empresa especializada na prestação de serviços de segurança patrimonial armada, para atender as necessidades da Defensoria Pública do Estado de Mato Grosso – Edifício Pantanal Business",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Defensoria Pública do Estado de Mato Grosso",
+    "obtido": "Defensoria Pública do Estado de Mato Grosso",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "Pantanal Vigilância e Segurança Ltda",
+    "obtido": "PANTANAL VIGILÂNCIA E SEGURANÇA LTDA",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 268.403,04/ano",
+    "obtido": "R$ 268.403,04 (Duzentos e sessenta e oito mil, quatrocentos e três reais e quatro centavos) - valor anual",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "Até 10 anos, mediante ateste da autoridade competente (art. 107, Lei 14.133/2021)",
+    "obtido": "O contrato pode ser prorrogado até no máximo 10 (dez) anos, desde que a autoridade competente ateste que as condições e os preços permanecem vantajosos para a Administração, sendo permitida a negociação com o contratado ou a extinção contratual sem ônus para qualquer das partes, nos termos do artigo 107 da Lei Federal nº 14.133/2021 c/c com o Decreto Estadual nº 1.525/2022",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "10%",
+    "obtido": "10% (dez por cento) sobre o valor do contrato, podendo optar por quaisquer das modalidades previstas no art. 96 da Lei Federal nº 14.133/2021",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "Até 30% do valor do contrato (tabela de graus 1-6, 21 infrações tipificadas)",
+    "obtido": "Até 30% (trinta por cento) do valor do contrato licitado ou celebrado, com aplicação de multas por graus de infração variando de 1,0% a 6,0% por dia sobre o valor mensal do contrato, conforme tabela de infrações estabelecida na Cláusula Vigésima Segunda",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "Não nomeado no corpo do contrato; modelo em anexo (Anexo II) a preencher na execução",
+    "obtido": "A gestão do contrato será realizada pela Primeira Subdefensoria Pública-Geral, com apoio da área técnica responsável pela execução contratual, em conjunto com a Coordenadoria de Contratos da Defensoria. A fiscalização será realizada por um servidor da área técnica ou administrativo responsável pela fiscalização contratual, em conjunto com o gestor do contrato. Os fiscais devem ser previamente designados por portaria geral ou específica",
+    "veredito": "DIVERGENTE (presença/ausência)"
+  },
+  {
+    "contrato": "1_DPE-MT_041-2026",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Muito detalhada (Cláusula 25, 16 subcláusulas); notificação de incidente em até 24h",
+    "obtido": "Cláusula dedicada e detalhada (Cláusula Vigésima Quinta - DA PROTEÇÃO DE DADOS PESSOAIS). Estabelece obrigações abrangentes: conformidade com Lei nº 13.709/2018 (LGPD), tratamento de dados apenas para execução do contrato, proibição de compartilhamento ou comercialização de dados, implementação de medidas técnicas e administrativas de segurança, notificação em 24 horas sobre exposições ou ameaças, cooperação em solicitações de titulares de dados, notificação imediata de incidentes de segurança com detalhes específicos, responsabilidade administrativa e judicial por violações, garantia de segurança mesmo após término do contrato, e adoção de procedimentos como autenticação, criptografia, detecção de intrusão e prevenção de vazamento",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "77.996.312/0001-21",
+    "obtido": "77.996.312/0001-21",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "18.284.407/0001-53",
+    "obtido": "18.284.407/0001-53",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 24,
+    "obtido": 24,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Organização de concurso público (dispensa de licitação, art. 75 XV)",
+    "obtido": "Prestação de serviços técnico especializados para organização e realização de concurso público para provimento de 10 (dez) vagas e formação de cadastro reserva no cargo de Auditor de Controle Externo",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Tribunal de Contas do Estado do Paraná",
+    "obtido": "Tribunal de Contas do Estado do Paraná (TCE/PR)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "CEBRASPE - Centro Brasileiro de Pesquisa em Avaliação e Seleção",
+    "obtido": "Centro Brasileiro de Pesquisa em Avaliação e Seleção e de Promoção de Eventos - CEBRASPE",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 845.080,67 (faixa de até 5.000 candidatos; valor variável por tabela)",
+    "obtido": "R$ 845.080,67 (considerando 5.000 inscrições efetivadas, com variação conforme tabela de preços por faixa de inscrições)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "Sem prorrogação — contrato por escopo (arts. 105/111), extinto ao final do certame; sem direito subjetivo à prorrogação",
+    "obtido": "O prazo de vigência será automaticamente prorrogado quando o objeto não for concluído no período firmado, ressalvadas as providências cabíveis em caso de culpa do contratado. A prorrogação deve ser formalizada mediante celebração de termo aditivo. Nas eventuais prorrogações contratuais, os custos não renováveis já pagos ou amortizados ao longo do primeiro período deverão ser reduzidos ou eliminados como condição para a renovação. O contrato não poderá ser prorrogado quando a contratada tiver sido penalizada com sanções de declaração de inidoneidade ou impedimento de licitar e contratar.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "Sem exigência de garantia (cláusula 11.1)",
+    "obtido": "não há cláusula",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "Até 5% do valor do contrato (tabela de graus L1 a G2)",
+    "obtido": "Até 5% (cinco por cento) do valor total do contrato (grau G2), podendo ser cumulada com rescisão contratual. Multas progressivas conforme tabela de sanções: L1 (advertência), M1 (até 0,5%), M2 (até 1%), M3 (até 2%), G1 (até 2,5%), G2 (até 5%)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "Comissão de Concurso Público (Presidente + ao menos 3 membros)",
+    "obtido": "A Comissão de Concurso Público é designada como gestora titular do contrato, com acompanhamento, controle e fiscalização distribuídos entre seus membros. Compete ao Presidente da Comissão, conjuntamente com pelo menos mais três membros, o atesto da execução dos serviços mediante termo circunstanciado.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "2_TCEPR-CEBRASPE_13-2024",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Detalhada (Cláusula 10, 13 subcláusulas)",
+    "obtido": "Cláusula dedicada (Cláusula Décima) com nível detalhado de regulamentação: obrigação de cumprimento da Lei nº 13.709/2018 (LGPD) para todos os dados pessoais; restrição de uso apenas para finalidades justificadas; vedação de compartilhamento com terceiros fora das hipóteses legais; obrigação de informar sobre contratos de suboperação em 5 dias úteis; dever de eliminação de dados após término do tratamento (exceto hipóteses legais); obrigação de orientação e treinamento de empregados; exigência de cumprimento por suboperadores; direito de diligência do contratante; prestação de informações sobre dados pessoais; requisitos de bancos de dados em ambiente controlado com rastreabilidade; desenvolvimento em formato interoperável; sujeição a alterações conforme recomendações da ANPD; comunicação à autoridade nacional conforme art. 26 da LGPD.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "50.290.931/0001-40",
+    "obtido": "50.290.931/0001-40",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "59.275.792/0001-50",
+    "obtido": "59.275.792/0001-50",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 12,
+    "obtido": 12,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Aquisição de bem (veículo) — adesão/carona a Ata de Registro de Preços de outro órgão gerenciador",
+    "obtido": "Aquisição de veículo (Camioneta/SUV GM/Chevrolet Trailblazer)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Tribunal de Contas do Estado de São Paulo (TCESP)",
+    "obtido": "Tribunal de Contas do Estado de São Paulo",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "General Motors do Brasil Ltda",
+    "obtido": "General Motors do Brasil Ltda",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 308.800,00 (compra única)",
+    "obtido": "R$ 308.800,00",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "AUTOMÁTICA, independente de termo aditivo, se objeto não concluído no prazo (cláusula 2.1.1) — único caso da amostra",
+    "obtido": "O prazo de vigência será automaticamente prorrogado, independentemente de termo aditivo, quando o objeto não for concluído no período firmado acima, ressalvadas as providências cabíveis no caso de culpa do contratado, previstas neste instrumento.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "2%",
+    "obtido": "2% (dois por cento) do valor total do contrato, em modalidade de caução em dinheiro, títulos da dívida pública ou fiança bancária",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "Moratória até 10%; compensatória 10-20%",
+    "obtido": "Moratória de 0,2% por dia de atraso injustificado até limite de 20 dias; moratória de 0,1% por dia de atraso injustificado sobre o valor total do contrato até máximo de 10%; multa compensatória de 5% a 10% do valor do contrato para inexecução total; multas de 1% a 10% do valor do contrato para infrações específicas conforme artigo 11.2",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "Não identificado nas páginas analisadas",
+    "obtido": "Não identificado no contrato",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "3_TCESP-GM_21-2024",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Só menção genérica (treinamento de empregados sobre a Lei 13.709/2018), sem cláusula dedicada",
+    "obtido": "sem cláusula dedicada",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "00.627.612/0001-09",
+    "obtido": "00.627.612/0001-09",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "02.593.165/0001-40",
+    "obtido": "02.593.165/0001-40",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 12,
+    "obtido": 12,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Assinatura/licença de pesquisa (tipo SaaS)",
+    "obtido": "Contratação de serviços técnicos especializados de pesquisa e aconselhamento imparcial, na forma de subscrição, para acesso ilimitado a Bases de Conhecimentos/Pesquisas em Tecnologia da Informação e Comunicação",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Fundação Escola Nacional de Administração Pública (ENAP)",
+    "obtido": "Fundação Escola Nacional de Administração Pública - ENAP",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "Gartner do Brasil Serviços de Pesquisas Ltda",
+    "obtido": "Gartner do Brasil Serviços de Pesquisas Ltda.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 1.083.300,00/ano",
+    "obtido": "R$ 1.083.300,00 (valor total para 12 meses)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "Até 10 anos, mediante ateste; extinção por conveniência com aviso de 2 meses antes do aniversário do contrato",
+    "obtido": "Prorrogável para até 10 anos, conforme artigos 106 e 107 da Lei nº 14.133/2021. A prorrogação é condicionada à avaliação motivada do Gestor do Contrato, com base no Histórico de Gestão do Contrato, nos princípios da manutenção da necessidade, economicidade e oportunidade da contratação. O contratado não tem direito subjetivo à prorrogação. A prorrogação deve ser promovida mediante termo aditivo. Nas prorrogações, os custos não renováveis já pagos ou amortizados deverão ser reduzidos ou eliminados.",
+    "veredito": "DIVERGENTE (presença/ausência)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "Sem exigência de garantia (cláusula 11.1)",
+    "obtido": "não há cláusula",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "Branda: moratória 1%/dia até 15 dias; compensatória 10-15%",
+    "obtido": "30% (trinta por cento) do valor mensal do Contrato, sendo este o teto mensal para a totalidade das sanções aplicadas. As multas específicas incluem: moratória de 1,0% ao dia (limitada a 15 dias úteis) por atraso na disponibilização inicial dos serviços; moratória de 1,0% ao dia até máximo de 2,0% por atraso na apresentação de garantia; moratória de 1,0% ao dia por demais descumprimentos; compensatória de 10% sobre o valor do contrato por atraso superior a 15 dias úteis ou inexecução parcial; compensatória de 15% sobre o valor do contrato por inexecução total; compensatória de 10% sobre o valor mensal por descumprimento de demais obrigações.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "A nomear pelo Contratante (cláusula 8.1); não identificado no corpo",
+    "obtido": "A Cláusula Oitava (8.1) estabelece que o Contratante deverá nomear Gestor e Fiscais Técnico, Administrativo e Requisitante do contrato para acompanhar e fiscalizar a execução. Não há identificação nominal específica no contrato.",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "4_ENAP-Gartner_04-2024",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Padrão (Cláusula 10, 12 subcláusulas)",
+    "obtido": "Cláusula Décima dedicada à LGPD (Lei nº 13.709/2018) com alto nível de detalhe. Inclui: obrigação de cumprimento da LGPD para todos os dados pessoais; restrição de uso dos dados às finalidades que justificaram seu acesso; vedação de compartilhamento com terceiros fora das hipóteses legais; obrigação de informar à Administração sobre contratos de suboperação em 5 dias úteis; dever de eliminação de dados após término do tratamento (com exceções legais); obrigação de orientar e treinar empregados sobre LGPD; exigência de cumprimento por suboperadores e subcontratados; direito de diligência pela Contratante; obrigação de prestar informações sobre dados pessoais; requisitos para bancos de dados com registro rastreável de tratamentos (art. 37 da LGPD); desenvolvimento em formato interoperável; sujeição a alterações conforme recomendações da ANPD; comunicação à autoridade nacional conforme art. 26 da LGPD.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "75.380.071/0001-66",
+    "obtido": "75.380.071/0001-66",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "03.979.287/0001-31",
+    "obtido": "03.979.287/0001-31",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 12,
+    "obtido": 12,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Serviço de publicidade (agência de propaganda, concorrência)",
+    "obtido": "Contratação de agência de publicidade para prestação de serviços de publicidade, incluindo estudo, planejamento, conceituação, concepção, criação, execução interna, intermediação e supervisão da execução externa e distribuição de publicidade",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Município de Rondon-PR",
+    "obtido": "Município de Rondon",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "Olé Propaganda e Publicidade Eirelli",
+    "obtido": "OLÉ PROPAGANDA E PUBLICIDADE EIRELLI",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 250.000,00",
+    "obtido": "R$ 250.000,00 (duzentos e cinquenta mil reais)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "Até 10 anos, mediante ateste",
+    "obtido": "Prorrogável por até 10 anos, conforme previsto na Cláusula Segunda (2.1). O contrato possui vigência inicial de 1 ano, prorrogável por até 10 anos adicionais, totalizando até 11 anos de duração máxima",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "Não exigida",
+    "obtido": "Não há cláusula de garantia de execução. Conforme Cláusula Oitava (8.1): 'Não haverá exigência de garantia contratual da execução'",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "15% a 30% do valor + impedimento de licitar",
+    "obtido": "Multa de até 30% do valor do contrato ou ARP (Acordo de Remuneração de Publicidade), conforme Cláusula Nona (9.1). O teto máximo é de 30% aplicável aos casos de inexecução total do contrato (inciso III) e outras infrações graves. Para atrasos, a multa é de 0,5% do valor do contrato ou ARP por dia de atraso, limitada a 30% do valor do contrato ou ARP (inciso VII)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "Não nomeado no corpo",
+    "obtido": "Não identificado. O contrato menciona que 'O fiscal do contrato acompanhará os mecanismos de mitigação dos riscos previstos na matriz de risco contratual' (Cláusula Quinta, 5.3), mas não designa nominalmente quem é o gestor/fiscal do contrato",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "5_Rondon-Ole_05-2025",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Presente (Cláusula 12), com direito de auditoria pelo contratante",
+    "obtido": "Há cláusula dedicada à LGPD (Cláusula Décima Segunda, artigos 12.1 a 12.6). A cláusula estabelece que as partes devem manter conformidade com a Lei nº 13.709/2018 (LGPD), define obrigações do Contratado incluindo garantia de conformidade, notificação de incidentes de segurança, confidencialidade de funcionários e terceiros, auxílio aos direitos dos titulares de dados, e responsabilidade por danos. Também prevê direito de auditoria pela Contratante e subsistência das obrigações após rescisão do contrato",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "32.690.668/0001-02",
+    "obtido": "32.690.668/0001-02",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "27.595.780/0001-16",
+    "obtido": "27.595.780/0001-16",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 36,
+    "obtido": 36,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Locação de frota de veículos (sem condutor, sem combustível)",
+    "obtido": "Prestação de serviços de locação de veículos de serviços e veículos de representação híbridos, sem fornecimento de condutores e sem fornecimento de combustíveis",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Secretaria de Estado de Polícia Militar do Rio de Janeiro",
+    "obtido": "Estado do Rio de Janeiro, pela Secretaria de Estado de Polícia Militar",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "CS Brasil Frotas S.A.",
+    "obtido": "CS Brasil Frotas S.A.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 7.931.508,63 (36 meses) / R$ 220.319,68 mensal",
+    "obtido": "R$ 7.931.508,6276 (valor total de 36 meses) / R$ 220.319,6841 (parcela mensal)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "Até 10 anos, mediante ateste",
+    "obtido": "O contrato poderá ser prorrogado sucessivamente, até o máximo de 10 (dez) anos, na forma dos arts. 106 e 107 da Lei nº 14.133/2021. A prorrogação está condicionada ao ateste de que as condições e os preços permanecem vantajosos para a Administração, mediante negociação com o CONTRATADO, observando requisitos como demonstração formal de continuidade, relatório de execução, justificativa de interesse, manifestação expressa do contratado, comprovação de manutenção de condições de habilitação e disponibilidade orçamentário-financeira. O contratado não tem direito subjetivo à prorrogação. A prorrogação será promovida mediante celebração de termo aditivo.",
+    "veredito": "DIVERGENTE (presença/ausência)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "5% do valor anual",
+    "obtido": "5% (cinco por cento) do valor anual do contrato",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "0,5% a 30% por categoria de infração + mora de 1%/dia",
+    "obtido": "Multa administrativa de 0,5% a 30% do valor do contrato, conforme a infração. Multa de mora de até 1% ao mês (máximo 30% do valor do contrato). Multa compensatória de 5% em caso de inexecução total ou parcial.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "Gestor de Transporte do Contratante (função, não nomeado individualmente)",
+    "obtido": "Não identificado explicitamente no documento. O contrato menciona que o modelo de gestão e fiscalização segue o disposto no Termo de Referência anexo e no Decreto nº 48.817, de 24 de novembro de 2023.",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "6_PMRJ-CSBrasil_018-2025",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Detalhada, padrão (Cláusula 10)",
+    "obtido": "Cláusula dedicada presente (Cláusula Décima - Obrigações Pertinentes à LGPD). Estabelece que as partes devem cumprir a Lei nº 13.709/2018 (LGPD) quanto a todos os dados pessoais acessados em razão do contrato. Inclui obrigações de: uso de dados apenas para finalidades justificadas; proibição de compartilhamento com terceiros fora das hipóteses legais; informação à Administração sobre contratos de suboperação; realização de diligência para aferir cumprimento; prestação de informações sobre dados pessoais; manutenção de bancos de dados em ambiente virtual controlado com registro de tratamentos; desenvolvimento em formato interoperável; alteração de procedimentos conforme indicação de autoridade competente; comunicação à autoridade nacional. Nível de detalhe: moderado, com cláusula específica dedicada.",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "06.554.844/0001-60",
+    "obtido": "06.554.844/0001-60",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "39.609.377/0001-88",
+    "obtido": "39.609.377/0001-88",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 12,
+    "obtido": 12,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Mutirão de limpeza/conservação de vias públicas (dispensa eletrônica)",
+    "obtido": "Prestação de Serviços comuns do tipo mutirão com fornecimento de mão-de-obra, materiais, uniformes, EPIs, ferramentas e equipamentos para asseio, conservação e higienização das vias públicas",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Município de Elesbão Veloso-PI",
+    "obtido": "Prefeitura Municipal de Elesbão Veloso",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "Maratoan Locações e Serviços Ltda",
+    "obtido": "MARATOAN LOCACOES E SERVICOS LTDA",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 60.962,32",
+    "obtido": "R$ 60.962,32 (sessenta mil novecentos e sessenta e dois reais e trinta e dois centavos), a serem pagos dia 10 de cada mês",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "NENHUMA — só rescisão a critério da administração (art. 137)",
+    "obtido": "não há cláusula de prorrogação",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "Não há cláusula",
+    "obtido": "não há cláusula",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "Não há cláusula",
+    "obtido": "não há cláusula",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "Nomeado diretamente no corpo (nome e CPF do fiscal)",
+    "obtido": "Sr. ANTONIO FERNANDES FERREIRA DA SILVA, inscrito no CPF nº 667.866.223-72",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "7_ElesbaoVeloso-Maratoan_047-2025",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "Padrão (Cláusula 11)",
+    "obtido": "Cláusula dedicada (Cláusula Décima Primeira) com nível detalhado de detalhe, incluindo: cumprimento da Lei nº 13.709/2018, limitação de uso de dados, proibição de compartilhamento com terceiros, comunicação de suboperações em 5 dias úteis, eliminação de dados após tratamento, treinamento de empregados, exigência de cumprimento por subcontratados, direito de diligência pela Administração, prestação de informações sobre dados pessoais, requisitos para bancos de dados com rastreabilidade, formato interoperável, sujeição a alterações por autoridade competente (ANPD), e comunicação à autoridade nacional conforme art. 26 da LGPD",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "cnpj_orgao",
+    "tipo": "estruturado",
+    "esperado": "28.589.145/0001-99",
+    "obtido": "28.589.145/0001-99",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "cnpj_contratada",
+    "tipo": "estruturado",
+    "esperado": "31.060.529/0001-24",
+    "obtido": "31.060.529/0001-24",
+    "veredito": "OK"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "vigencia_inicial_meses",
+    "tipo": "estruturado",
+    "esperado": 12,
+    "obtido": 12,
+    "veredito": "OK"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "tipo_contratacao",
+    "tipo": "descritivo",
+    "esperado": "Engenharia de segurança do trabalho / saúde ocupacional (dispensa, art. 75 II)",
+    "obtido": "Prestação de serviços de engenharia de segurança do trabalho, incluindo elaboração de PGR, PCMSO, LTIP, ASO, LTCAT, PPP, treinamentos e acompanhamento em saúde e segurança do trabalho por 12 meses",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "orgao",
+    "tipo": "descritivo",
+    "esperado": "Consórcio Público Interfederativo de Saúde Nordeste II (COISAN)",
+    "obtido": "Consórcio Público Interfederativo de Saúde Nordeste II",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "contratada",
+    "tipo": "descritivo",
+    "esperado": "JM Assessoria e Engenharia Ltda",
+    "obtido": "JM ASSESSORIA E ENGENHARIA LTDA",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "valor",
+    "tipo": "descritivo",
+    "esperado": "R$ 28.193,31",
+    "obtido": "R$ 28.193,31 (Vinte e Oito Mil Cento e Noventa e Três Reais e Trinta e Um Centavos)",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "mecanismo_prorrogacao",
+    "tipo": "descritivo",
+    "esperado": "Sucessivamente até o máximo decenal (art. 107)",
+    "obtido": "Prorrogação sucessiva respeitada a vigência máxima decenal, conforme artigo 107 da Lei nº 14.133/2021. Não há detalhamento específico sobre critérios ou procedimentos de prorrogação no contrato.",
+    "veredito": "DIVERGENTE (presença/ausência)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "garantia_execucao",
+    "tipo": "descritivo",
+    "esperado": "Não há cláusula",
+    "obtido": "não há cláusula",
+    "veredito": "OK (concordam: ausente)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "multa_teto",
+    "tipo": "descritivo",
+    "esperado": "0,5% a 30% do valor do contrato",
+    "obtido": "0,5% (cinco décimos por cento) até 30% (trinta por cento) do valor do contrato, conforme aplicável ao tipo de inexecução",
+    "veredito": "REVISAR (ambos indicam presença; conteúdo requer leitura humana)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "gestor_fiscal",
+    "tipo": "descritivo",
+    "esperado": "\"Nomeados em portaria\" — não identificados no corpo",
+    "obtido": "Servidor nomeado em portaria para gerência e servidor nomeado em portaria para fiscalização, conforme Cláusula Sexta (6.1 e 6.2)",
+    "veredito": "DIVERGENTE (presença/ausência)"
+  },
+  {
+    "contrato": "8_COISAN-JMAssessoria_003-2025",
+    "campo": "clausula_lgpd",
+    "tipo": "descritivo",
+    "esperado": "SEM cláusula dedicada",
+    "obtido": "sem cláusula dedicada",
+    "veredito": "OK (concordam: ausente)"
+  }
+]

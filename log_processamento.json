@@ -1,0 +1,58 @@
+{
+  "1_DPE-MT_041-2026": {
+    "modo_entrada": "texto",
+    "duracao_segundos": 10.63,
+    "tokens_entrada": 47646,
+    "tokens_saida": 871,
+    "status": "ok"
+  },
+  "2_TCEPR-CEBRASPE_13-2024": {
+    "modo_entrada": "texto",
+    "duracao_segundos": 11.14,
+    "tokens_entrada": 38999,
+    "tokens_saida": 908,
+    "status": "ok"
+  },
+  "3_TCESP-GM_21-2024": {
+    "modo_entrada": "imagem",
+    "duracao_segundos": 6.67,
+    "tokens_entrada": 13011,
+    "tokens_saida": 447,
+    "status": "ok"
+  },
+  "4_ENAP-Gartner_04-2024": {
+    "modo_entrada": "texto",
+    "duracao_segundos": 12.48,
+    "tokens_entrada": 9892,
+    "tokens_saida": 1002,
+    "status": "ok"
+  },
+  "5_Rondon-Ole_05-2025": {
+    "modo_entrada": "texto",
+    "duracao_segundos": 8.63,
+    "tokens_entrada": 10736,
+    "tokens_saida": 752,
+    "status": "ok"
+  },
+  "6_PMRJ-CSBrasil_018-2025": {
+    "modo_entrada": "imagem",
+    "duracao_segundos": 16.7,
+    "tokens_entrada": 42540,
+    "tokens_saida": 839,
+    "status": "ok"
+  },
+  "7_ElesbaoVeloso-Maratoan_047-2025": {
+    "modo_entrada": "texto",
+    "duracao_segundos": 5.81,
+    "tokens_entrada": 5275,
+    "tokens_saida": 534,
+    "status": "ok"
+  },
+  "8_COISAN-JMAssessoria_003-2025": {
+    "modo_entrada": "texto",
+    "duracao_segundos": 5.57,
+    "tokens_entrada": 5911,
+    "tokens_saida": 468,
+    "status": "ok"
+  }
+}

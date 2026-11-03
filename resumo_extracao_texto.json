@@ -1,0 +1,50 @@
+{
+  "1_DPE-MT_041-2026": {
+    "arquivo_pdf": "1_DPE-MT_041-2026.pdf",
+    "n_paginas": 40,
+    "n_caracteres": 138355,
+    "arquivo_texto": "contratos\\_texto_extraido\\1_DPE-MT_041-2026.txt"
+  },
+  "2_TCEPR-CEBRASPE_13-2024": {
+    "arquivo_pdf": "2_TCEPR-CEBRASPE_13-2024.pdf",
+    "n_paginas": 43,
+    "n_caracteres": 105718,
+    "arquivo_texto": "contratos\\_texto_extraido\\2_TCEPR-CEBRASPE_13-2024.txt"
+  },
+  "3_PRF-GM_21-2024": {
+    "arquivo_pdf": "3_PRF-GM_21-2024.pdf",
+    "n_paginas": 8,
+    "n_caracteres": 151,
+    "arquivo_texto": "contratos\\_texto_extraido\\3_PRF-GM_21-2024.txt"
+  },
+  "4_ENAP-Gartner_04-2024": {
+    "arquivo_pdf": "4_ENAP-Gartner_04-2024.pdf",
+    "n_paginas": 8,
+    "n_caracteres": 26764,
+    "arquivo_texto": "contratos\\_texto_extraido\\4_ENAP-Gartner_04-2024.txt"
+  },
+  "5_Rondon-Ole_05-2025": {
+    "arquivo_pdf": "5_Rondon-Ole_05-2025.pdf",
+    "n_paginas": 11,
+    "n_caracteres": 31006,
+    "arquivo_texto": "contratos\\_texto_extraido\\5_Rondon-Ole_05-2025.txt"
+  },
+  "6_PMRJ-CSBrasil_018-2025": {
+    "arquivo_pdf": "6_PMRJ-CSBrasil_018-2025.pdf",
+    "n_paginas": 27,
+    "n_caracteres": 530,
+    "arquivo_texto": "contratos\\_texto_extraido\\6_PMRJ-CSBrasil_018-2025.txt"
+  },
+  "7_ElesbaoVeloso-Maratoan_047-2025": {
+    "arquivo_pdf": "7_ElesbaoVeloso-Maratoan_047-2025.pdf",
+    "n_paginas": 5,
+    "n_caracteres": 12941,
+    "arquivo_texto": "contratos\\_texto_extraido\\7_ElesbaoVeloso-Maratoan_047-2025.txt"
+  },
+  "8_COISAN-JMAssessoria_003-2025": {
+    "arquivo_pdf": "8_COISAN-JMAssessoria_003-2025.pdf",
+    "n_paginas": 6,
+    "n_caracteres": 14825,
+    "arquivo_texto": "contratos\\_texto_extraido\\8_COISAN-JMAssessoria_003-2025.txt"
+  }
+}
