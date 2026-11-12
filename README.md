@@ -46,7 +46,7 @@ Os três erros de conteúdo estão descritos em `gabarito/revisao_campos_descrit
 ## Como executar
 
 1. Python 3.14 e as bibliotecas: `pip install pdfplumber pypdfium2 Pillow requests`
-2. Criar um arquivo `.env` local com a chave da API da Anthropic (a chave não está no repositório).
+2. Criar um arquivo `.env` na raiz com a linha `ANTHROPIC_API_KEY=sua_chave` (a chave não está no repositório).
 3. Abrir `src/prototipo_gestao_contratos.ipynb` no Jupyter ou no VS Code e executar as células em ordem: extração de texto, renderização dos PDFs digitalizados, envio à API e comparação com o gabarito.
 
 Modelo utilizado: `claude-haiku-4-5-20251001`, temperatura 0. A reprodução exata depende da disponibilidade dessa versão do modelo.
