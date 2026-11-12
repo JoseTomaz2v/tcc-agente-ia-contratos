@@ -1,54 +1,60 @@
 # TCC — Aplicação do Lean Office e da Inteligência Artificial na Gestão de Contratos
 
-Repositório de apoio ao Trabalho de Conclusão de Curso (Engenharia de Produção) que propõe e avalia um protótipo de automação, baseado em inteligência artificial, para a etapa de leitura e registro de informações em contratos — hoje realizada manualmente.
+Repositório de apoio ao Trabalho de Conclusão de Curso de Engenharia de Produção do Centro Universitário IBMR. Reúne o protótipo, os contratos da amostra e os arquivos usados na avaliação.
 
 ## Sobre o projeto
 
-O trabalho aplica os princípios do Lean Office para mapear o processo atual (AS-IS) de gestão de contratos e identificar os desperdícios associados à extração manual de informações. A partir desse diagnóstico, é proposto um processo futuro (TO-BE) em que um protótipo baseado em IA substitui as atividades manuais responsáveis por esses desperdícios.
+O trabalho mapeia um processo típico de gestão de contratos (AS-IS), classifica seus desperdícios com base no Lean Office e propõe um processo futuro (TO-BE) em que um protótipo com IA apoia a etapa de leitura e registro de informações contratuais. A conferência e a decisão continuam com o gestor do contrato.
 
-A pesquisa segue a metodologia **Design Science Research (DSR)**, de Peffers et al. (2007), estruturada em seis etapas: identificação do problema e motivação, definição dos objetivos da solução, projeto e desenvolvimento do artefato, demonstração, avaliação e comunicação.
+A pesquisa segue o Design Science Research (Peffers et al., 2007). Dos módulos previstos no TO-BE, apenas o de **extração** foi implementado; regras, painel e alertas são proposta conceitual.
 
-O protótipo foi avaliado em uma amostra de 8 contratos públicos reais, comparando o processo manual (AS-IS) e o processo automatizado (TO-BE) a partir de três indicadores:
-
-- **Tempo de processamento** — tempo necessário para extrair os campos definidos de cada contrato;
-- **Falhas de execução** — ocorrência de erros técnicos durante o processamento automatizado;
-- **Taxa de acerto da extração** — percentual de campos extraídos corretamente, validado contra um gabarito de referência.
-
-## Estrutura do repositório
+## Estrutura
 
 ```
 tcc-agente-ia-contratos/
-├── README.md              # este arquivo
-├── src/                    # código-fonte do protótipo
-├── contratos/               # amostra dos 8 contratos públicos utilizados
-├── gabarito/                 # gabarito de referência usado na validação da taxa de acerto
-└── resultados/                # saídas/registros da validação do protótipo
+├── README.md
+├── src/
+│   └── prototipo_gestao_contratos.ipynb    # notebook do protótipo
+├── contratos/                              # os 8 contratos da amostra (PDF)
+└── gabarito/
+    ├── gabarito.json                       # referência dos 12 campos por contrato
+    ├── log_processamento.json              # tempo, tokens e status de cada chamada
+    ├── relatorio_comparacao.json           # comparação automática campo a campo
+    ├── revisao_campos_descritivos.csv      # veredito da revisão humana (72 campos)
+    ├── resumo_extracao_texto.json          # páginas e caracteres extraídos por PDF
+    └── resumo_paginas_imagem.json          # páginas renderizadas dos PDFs digitalizados
 ```
 
-## Amostra de contratos
+## Amostra
 
-Os 8 contratos utilizados na amostra são públicos, obtidos em portais de órgãos governamentais (ex.: TCE-SP, TCE-PR, CEBRASPE, PM-RJ), e estão disponibilizados integralmente na pasta `contratos/` para fins de reprodutibilidade. Dois deles (aquisição de veículo — TCE-SP; locação de frota — PM-RJ/CS Brasil) são documentos digitalizados (escaneados), exigindo etapa de OCR no processamento.
+Oito contratos administrativos reais, publicados no Portal Nacional de Contratações Públicas (PNCP) sob a Lei nº 14.133/2021. Dois são digitalizações sem camada de texto pesquisável (contratos 3 e 6): nesses casos as páginas são renderizadas como imagem e lidas pelo próprio modelo de linguagem. O protótipo não usa biblioteca de OCR.
+
+O arquivo `3_PRF-GM_21-2024.pdf` conserva o nome original, mas o contratante é o TCESP; a PRF é apenas o órgão gerenciador da ata à qual o TCESP aderiu.
+
+## Resultados da avaliação
+
+| Indicador | Resultado |
+|---|---|
+| Campos estruturados coincidentes com o gabarito | 24/24 |
+| Campos descritivos concordantes após revisão humana | 69/72 |
+| Contratos processados sem falha de execução | 8/8 |
+| Tempo total das chamadas à API | ≈ 78 s |
+| Custo estimado | ≈ US$ 0,20 |
+
+Os três erros de conteúdo estão descritos em `gabarito/revisao_campos_descritivos.csv`. O gabarito foi elaborado com apoio de ferramenta de IA generativa, conferido nos documentos originais e corrigido durante a avaliação; as correções estão registradas no campo `observacoes` do próprio arquivo.
 
 ## Como executar
 
-> Preencher com os passos reais de instalação/execução do protótipo (dependências, comando de entrada, variáveis de ambiente necessárias, etc.).
+1. Python 3.14 e as bibliotecas: `pip install pdfplumber pypdfium2 Pillow requests`
+2. Criar um arquivo `.env` local com a chave da API da Anthropic (a chave não está no repositório).
+3. Abrir `src/prototipo_gestao_contratos.ipynb` no Jupyter ou no VS Code e executar as células em ordem: extração de texto, renderização dos PDFs digitalizados, envio à API e comparação com o gabarito.
 
-```bash
-pip install -r requirements.txt
-python src/main.py
-```
-
-## Tecnologias utilizadas
-
-- Python
-- Extração de texto/PDF: `pdfplumber`, `pypdfium2`, `Pillow`
-- Requisições HTTP: `requests`
-- Modelo de linguagem (LLM) via API para extração das informações contratuais
+Modelo utilizado: `claude-haiku-4-5-20251001`, temperatura 0. A reprodução exata depende da disponibilidade dessa versão do modelo.
 
 ## Contexto acadêmico
 
-Trabalho de Conclusão de Curso — Engenharia de Produção — Centro Universitário IBMR (Rio de Janeiro).
+Trabalho de Conclusão de Curso — Engenharia de Produção — Centro Universitário IBMR (Rio de Janeiro), 2026.
 
-**Autores:** Breno, José, Thais, Maike, Ernan.
+**Autores:** Breno William Andrade Coutinho, Ernan Vieira de Abreu, José Antônio Tomaz Brito, Maike Vinicius de Siqueira Ribeiro e Thais de Jesus da Silva.
 
-**Orientador:** Prof. Francisco José.
+**Orientador:** Prof. Francisco José Rodrigues da Silva Junior.
