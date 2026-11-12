@@ -55,6 +55,6 @@ Modelo utilizado: `claude-haiku-4-5-20251001`, temperatura 0. A reprodução exa
 
 Trabalho de Conclusão de Curso — Engenharia de Produção — Centro Universitário IBMR (Rio de Janeiro), 2026.
 
-**Autores:** Breno William Andrade Coutinho, Ernan Vieira de Abreu, José Antônio Tomaz Brito, Maike Vinicius de Siqueira Ribeiro e Thais de Jesus da Silva.
+**Autores:** Breno, Ernan, José, Maike e Thais.
 
 **Orientador:** Prof. Francisco José Rodrigues da Silva Junior.
